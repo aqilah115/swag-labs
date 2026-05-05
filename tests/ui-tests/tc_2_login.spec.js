@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { loginToSwagLabs } from '../utils/login'; //call the utils/login
+import { loginToSwagLabs } from '../../utils/login'; //call the utils/login
 
 test('Login feature @tc2', async ({ page }) =>{
 

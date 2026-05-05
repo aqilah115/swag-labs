@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { loginToSwagLabs } from '../utils/login'; 
-import { logoutFromSwagLabs } from '../utils/logout'; //call the utils/logout
+import { loginToSwagLabs } from '../../utils/login'; 
+import { logoutFromSwagLabs } from '../../utils/logout'; //call the utils/logout
 
 test('Logout feature @tc3', async ({ page }) =>{
 
